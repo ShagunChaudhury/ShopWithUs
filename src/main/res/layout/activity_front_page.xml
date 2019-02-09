@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/white_back"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#4A148C"
+            android:layout_margin="20dp"
+            android:textAlignment="center"
+            android:id="@+id/Happy"
+            android:layout_height="wrap_content"
+            android:text="ShopWithUs"
+            android:textSize="25sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:id="@+id/first_pro"
+                android:layout_width="150dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:src="@drawable/della" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:src="@drawable/dellb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+
+                    android:text="Dell Inspiration 15 7572"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+                <TextView
+
+                    android:text="Rs. 49999"
+                    android:textAlignment="center"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:text="Dell Latitude"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:text="Rs. 59999"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:id="@+id/b1"
+                android:layout_marginLeft="15dp"
+                android:text="Add to Cart"
+
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:id="@+id/b2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="35dp"
+                android:text="Add to Cart"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/dellc" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/delld" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+
+                    android:text="Dell Vostro 3568"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+                <TextView
+
+                    android:text="RS. 59989"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+
+                    android:text="Dell Inspiron"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp" />
+                <TextView
+
+                    android:text="RS 30970"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:text="Add to Cart"
+                android:id="@+id/b3"
+
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:id="@+id/b4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="35dp"
+                android:text="Add to Cart"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
+
